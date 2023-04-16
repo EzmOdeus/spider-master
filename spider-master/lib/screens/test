@@ -1,0 +1,26 @@
+Container(
+                      width:  180,
+                      // color: Colors.black,
+                      child: Column(
+                          mainAxisAlignment: MainAxisAlignment.end,
+                          crossAxisAlignment: CrossAxisAlignment.end,
+                          children: [
+                            Padding(
+                              padding: const EdgeInsets.only(right:8.0),
+                              child: Expanded(
+                                child: Text(
+                                  name,
+                                  overflow: TextOverflow.ellipsis,
+                                  softWrap: true,
+                                  maxLines: 1,
+                                  style: TextStyle(
+                                    fontSize: 15,
+                                    fontFamily: "Cairo",
+                                    fontWeight: FontWeight.w400,
+                                    color: Colors.black.withOpacity(.8),
+                                  ),
+                                  textAlign: TextAlign.start,
+                                  textDirection: TextDirection.rtl,
+                                ),
+                              ),
+                            ),
